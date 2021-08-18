@@ -1,0 +1,96 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+
+/* Globals */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  padding: 16px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* wrapper */
+.wrapper {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* HEADER */
+header {
+  background-color: #f1eeea;
+}
+
+/* nav */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  padding: 20px;
+  margin: 32px 0;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 16px;
+}
+
+.login ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+}
+
+.login ul li {
+  margin: 0 16px;
+}
+
+/* HERO */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  flex: 1;
+  border: 1px solid red;
+}
