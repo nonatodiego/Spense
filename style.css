@@ -22,6 +22,10 @@ a {
   color: #fff;
 }
 
+a.normal-link {
+  color: #000;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -201,12 +205,47 @@ nav .login-area p {
   width: 100%;
 }
 
-/* main */
+/* MAIN */
 .main-container {
+  display: flex;
   background-color: var(--bg-color);
-  padding: 64px 0;
+  border-radius: 8px;
 
+  padding-top: 64px;
   margin-bottom: 128px;
+}
+
+.main-info {
+  flex: 1;
+  /* margin: 8px 32px; */
+  margin-left: 64px;
+  margin-bottom: 64px;
+}
+
+.main-info h2 {
+  margin-bottom: 8px;
+}
+
+.main-info p  {
+  margin-bottom: 16px;
+}
+
+.main-info a {
+  color: #000;
+}
+
+.main-background {
+ flex: 3;
+ margin-right: 32px;
+ /* margin-bottom: -4px ; */
+ 
+ display: flex;
+ align-items: flex-end;
+ justify-content: flex-start;
+}
+
+.main-background img{
+ width: 100%;
 }
 
 
