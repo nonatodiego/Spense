@@ -42,6 +42,10 @@ a {
   text-decoration: none;
 }
 
+.btn:hover {
+  filter: brightness(1.5);
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -173,6 +177,36 @@ nav .login-area p {
 .hero-left--input input[type=email] {
   padding: 8px;
   margin-right: 16px;
+}
+
+/* section ad */
+
+.ad {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;  
+}
+
+.ad ul {
+  display: flex;  
+  list-style: none;
+  flex: 1;
+}
+
+.ad ul li {
+  margin: 8px;
+}
+
+.ad ul li img {
+  width: 100%;
+}
+
+/* main */
+.main-container {
+  background-color: var(--bg-color);
+  padding: 64px 0;
+
+  margin-bottom: 128px;
 }
 
 
