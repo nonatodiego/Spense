@@ -26,6 +26,11 @@ a.normal-link {
   color: #000;
 }
 
+ul {
+  list-style: none;
+}
+
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -52,8 +57,7 @@ a.normal-link {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
-  /* border: 1px solid #00ee00; */
+  margin: 0 auto; 
 }
 
 /* HEADER */
@@ -113,6 +117,7 @@ nav .login-area {
 }
 
 nav .login-area p {
+  cursor: no-drop;
   margin-right: 16px;
 }
 
@@ -171,6 +176,12 @@ nav .login-area p {
   width: 100%;
 }
 
+.hero-right img:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+  cursor: pointer;
+}
+
 .hero-left--input {
   display: flex;
   flex: 1;
@@ -203,6 +214,11 @@ nav .login-area p {
 
 .ad ul li img {
   width: 100%;
+}
+
+.ad ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s
 }
 
 /* MAIN */
@@ -248,7 +264,97 @@ nav .login-area p {
  width: 100%;
 }
 
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: row;
+}
 
+.about-background {
+  flex: 1;
+}
+
+.about-background img {
+  width: 100%;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  margin-left: 64px;
+  margin-bottom: 64px;
+}
+
+.about-info h2 {
+  margin-bottom: 8px;
+}
+
+.about-info p  {
+  margin-bottom: 16px;
+}
+
+.about-info a {
+  color: #000;
+}
+
+footer {  
+  background-color: #000;
+  color: #fff;
+  padding: 32px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-container h3 {
+  margin-bottom: 16px;
+}
+
+.footer-container ul li {
+  margin-bottom: 8px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footer-container ul li:hover {
+  font-weight: bold;
+}
+
+.footer-container p {
+  color: gray;
+}
+
+.footer-logo {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo .logo {
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.footer-sitemap {
+  flex: 1;
+}
+
+.footer-resources {
+  flex: 1;
+
+}
+.footer-opportunities {
+  flex: 1;
+
+}
 
 
 
